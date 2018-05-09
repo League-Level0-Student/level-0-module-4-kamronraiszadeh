@@ -18,7 +18,7 @@ public class HappyPet {
 	for (int i = 0; i < 11; i++) {
 		
 		
- int task = JOptionPane.showOptionDialog(null, "what pet do you want to do with your pet?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+ int n = JOptionPane.showOptionDialog(null, "what pet do you want to do with your pet?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "walk", "feed", "brush" }, null);
 
 			// 5. Use user input to call the appropriate method created in step 4.
